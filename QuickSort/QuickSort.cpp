@@ -90,11 +90,6 @@ void q_short(int low, int high)
 	//Sort the list on the right of pivot using quick sort
 	q_short(j + 1, high);
 
-	cout << "Array setelah partisi: ";
-	for (int k = low; k <= high; k++) {
-		cout << arr[k] << " ";
-	}
-	cout << endl;
 
 }
 
